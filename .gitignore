@@ -1,0 +1,15 @@
+# Archivos de configuración sensibles
+appsettings.json
+appsettings.Development.json
+
+# Carpetas generadas por Visual Studio y compilaciones
+bin/
+obj/
+.vs/
+
+# Archivos específicos del usuario
+*.user
+*.suo
+
+# Logs y temporales
+*.log

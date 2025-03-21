@@ -1,0 +1,32 @@
+﻿@model ExpenseTrackerWebApp.ViewModels.ExpenseVM;
+
+<div class="container mt-4">
+    <div class="card p-4 shadow">
+        <h2>Create Expense</h2>
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <input asp-for="Description" type="text" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Amount" class="form-label">Amount</label>
+                <input asp-for="Amount" type="number" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary " data-dismiss="modal">Cancel</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}
+

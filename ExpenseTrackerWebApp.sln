@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseTrackerWebApp", "ExpenseTrackerWebApp\ExpenseTrackerWebApp.csproj", "{F4144A37-FBDC-4D4B-84D7-58AC74E793E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AA35FED-12F8-4BDB-AA28-F3C5B0B1C34D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4144A37-FBDC-4D4B-84D7-58AC74E793E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4144A37-FBDC-4D4B-84D7-58AC74E793E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4144A37-FBDC-4D4B-84D7-58AC74E793E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4144A37-FBDC-4D4B-84D7-58AC74E793E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B567C5F4-B939-481E-8B9B-8C7AAD9DC1BE}
+	EndGlobalSection
+EndGlobal
